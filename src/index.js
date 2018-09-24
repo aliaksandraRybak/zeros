@@ -1,7 +1,7 @@
 module.exports = function getZerosCount(number) {
 	var zeros = 0;
 
-	for (var i = 1; i <= number; i++) {
+	for (var i = 5; i <= number; i += 5) {
 		if (i % 5 == 0) zeros += checkFives(i);
 	}
 
